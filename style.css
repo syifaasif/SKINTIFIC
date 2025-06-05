@@ -1,66 +1,76 @@
 *{box-sizing: border-box;}
+
 body{
 	font-family: Arial;
 	padding: 10px;
 	background:#f1f1f1;
 }
+
 /*ini kode untuk apa?*/
 .header{
-	padding: 30px;
+	padding:30px;
 	text-align:center;
-	background: white;
+	background:white;
 }
-.header h1 {font-size: 50px;}
+
+.header h1{font-size:50px;}
+
 /*Style the top navigation bar*/
-.topnav a{
+.topnav{
 	overflow:hidden;
 	background-color: #333;
 	}
+
 	/*Style the topnav links*/
 	.topnav a{
-	float: left;
-    display: block;
+	float:left;
+    display:block;
     color:#f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    text-align:center;
+    padding:14px 16px;
     text-decoration:none;
 	}
+
 	/*Change color on hover*/
 	.topnav a:hover{
 	background-color:#ddd;
-	color:black;
 	}
+
 	/*Create two unequale columns that floats next to each other*/
 	/*Left column*/
 	.leftcolumn{
-	float: left;
-	widht: 75%;
+	float:left;
+	widht:75%;
 	}
+
 	/*Right column*/
 	.rightcolumn{
-	float: right;
-	width: 25%;
+	float:right;
+	width:25%;
 	background-color:#f1f1f1;
 	padding-left:20px;
 	}
+
 	/*Fake image*/
 	.fakeimg{
 	background-color:#aaa;
 	width:100%
 	padding:20px;
 	}
+
 	/*ini kode untuk artikel*/
 	.card{
 	background-color:white;
 	padding:20px;
-	margin-top:20px;
 	}
+
 	/*Clear floats after the columns*/
 	.row::after{
 	content:"";
 	display:table;
 	clear:both;
 	}
+
 	/*Footer*/
 	.footer{
 	padding:20px;
